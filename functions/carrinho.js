@@ -50,7 +50,7 @@ const dbConfig = {
   database: "master",
   options: {
     encrypt: true,
-    trustServerCertificate: false
+    trustServerCertificate: true
   }
 };
 
