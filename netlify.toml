@@ -1,0 +1,7 @@
+[build]
+  functions = "functions"
+
+[[redirects]]
+  from = "/webhook/carrinho"
+  to = "/.netlify/functions/carrinho"
+  status = 200
