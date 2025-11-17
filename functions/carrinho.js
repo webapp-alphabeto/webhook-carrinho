@@ -44,10 +44,10 @@ function toGuidOrNull(value) {
 
 // Config Azure SQL (VTEX)
 const dbConfig = {
-  user: "vtex",
+  user: "sa",
   password: process.env.VTEX_DB_PASSWORD,
-  server: "vtex.database.windows.net",
-  database: "VTEX",
+  server: "31.97.85.55",
+  database: "master",
   options: {
     encrypt: true,
     trustServerCertificate: false
